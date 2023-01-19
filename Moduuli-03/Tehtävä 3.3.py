@@ -8,6 +8,7 @@ Miehen normaali hemoglobiiniarvo on välillä 134-195 g/l.
 
 sukup = input("Anna sukupuoli (N/M) ")
 hemoglob = int (input("Anna hemoglobiinin arvo: "))
+#Naisen hemoglobiini
 if sukup == "N":
     if hemoglob > 175:
         print("Hemoglobiinniarvosi on korkea")
@@ -15,7 +16,7 @@ if sukup == "N":
         print("Hemoglobiini on alhainen")
     elif 117<=hemoglob<175:
         print("Hemoglobiii on normaali")
-
+#Miehen hemoglobiini
 if sukup == "M":
     if  hemoglob > 195:
         print("Hemoglobiinniarvosi on korkea")
