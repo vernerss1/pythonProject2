@@ -4,9 +4,6 @@ kunnes tämä syöttää tyhjän merkkijonon lopetusmerkiksi.
 Lopuksi ohjelma tulostaa saaduista luvuista pienimmän ja suurimman.
 '''
 
-#Ohjelma tulostaa numeroita
-
-print("Anna numeroita")
 
 numero = int(input("Anna luku: "))
 
