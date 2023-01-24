@@ -37,6 +37,5 @@ while counter < N:
         n += 1
 print(f"Pisteitä arvottu yhteensä {counter}, joista {n} kpl ympyrän sisällä")
 
-# TODO: laske piin likiarvo käyttäen annettua kaavaa
-
+# Piin likiarvon lasku
 print(4*n/N)
